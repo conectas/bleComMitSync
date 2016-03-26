@@ -9,9 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // ------------------------------------------------------
+    var bleConnectDatenAR = [BleDevices]()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("VC: \(bleConnectDatenAR[0])")
+        print("------------------------------------------")
         
     }
     

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F887EFB81CA62D940054C839 /* BTDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887EFB71CA62D940054C839 /* BTDiscovery.swift */; };
 		F887EFBA1CA62DCD0054C839 /* BTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887EFB91CA62DCD0054C839 /* BTService.swift */; };
+		F8D52CEF1CA63091006D9F4E /* BleScanTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D52CEE1CA63091006D9F4E /* BleScanTVC.swift */; };
+		F8D52CF11CA63101006D9F4E /* BleScanTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D52CF01CA63101006D9F4E /* BleScanTVCell.swift */; };
 		F8F3ECA41CA628C200D4B9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3ECA31CA628C200D4B9C0 /* AppDelegate.swift */; };
 		F8F3ECA61CA628C200D4B9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3ECA51CA628C200D4B9C0 /* ViewController.swift */; };
 		F8F3ECA91CA628C200D4B9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F3ECA71CA628C200D4B9C0 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		F887EFB71CA62D940054C839 /* BTDiscovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDiscovery.swift; sourceTree = "<group>"; };
 		F887EFB91CA62DCD0054C839 /* BTService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTService.swift; sourceTree = "<group>"; };
+		F8D52CEE1CA63091006D9F4E /* BleScanTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleScanTVC.swift; sourceTree = "<group>"; };
+		F8D52CF01CA63101006D9F4E /* BleScanTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleScanTVCell.swift; sourceTree = "<group>"; };
 		F8F3ECA01CA628C200D4B9C0 /* bleComMitSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bleComMitSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F3ECA31CA628C200D4B9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8F3ECA51CA628C200D4B9C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,8 +73,10 @@
 			children = (
 				F8F3ECA71CA628C200D4B9C0 /* Main.storyboard */,
 				F8F3ECA31CA628C200D4B9C0 /* AppDelegate.swift */,
-				F8F3ECA51CA628C200D4B9C0 /* ViewController.swift */,
 				F887EFBB1CA62DE90054C839 /* BteClasses */,
+				F8F3ECA51CA628C200D4B9C0 /* ViewController.swift */,
+				F8D52CEE1CA63091006D9F4E /* BleScanTVC.swift */,
+				F8D52CF01CA63101006D9F4E /* BleScanTVCell.swift */,
 				F8F3ECAA1CA628C200D4B9C0 /* Assets.xcassets */,
 				F8F3ECAC1CA628C200D4B9C0 /* LaunchScreen.storyboard */,
 				F8F3ECAF1CA628C200D4B9C0 /* Info.plist */,
@@ -149,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D52CF11CA63101006D9F4E /* BleScanTVCell.swift in Sources */,
 				F8F3ECA61CA628C200D4B9C0 /* ViewController.swift in Sources */,
 				F887EFBA1CA62DCD0054C839 /* BTService.swift in Sources */,
+				F8D52CEF1CA63091006D9F4E /* BleScanTVC.swift in Sources */,
 				F887EFB81CA62D940054C839 /* BTDiscovery.swift in Sources */,
 				F8F3ECA41CA628C200D4B9C0 /* AppDelegate.swift in Sources */,
 			);
